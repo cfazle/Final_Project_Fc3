@@ -9,8 +9,7 @@
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('login.facebook') }}">
-                            @csrf
-
+                           @csrf
 
                             <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-4">

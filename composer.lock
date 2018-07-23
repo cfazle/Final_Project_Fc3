@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5e4e146832d61b35154f1e978f30c5f",
+    "content-hash": "170394e361e552c9660749a783c3850a",
     "packages": [
+        {
+            "name": "afrazahmad/clear-cached-data",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afrazahmmad/clear-all-cached-data.git",
+                "reference": "03ba2ab0e295e004ea100e85d40702d63553fd90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afrazahmmad/clear-all-cached-data/zipball/03ba2ab0e295e004ea100e85d40702d63553fd90",
+                "reference": "03ba2ab0e295e004ea100e85d40702d63553fd90",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.5.0|~5.6.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AfrazAhmad\\ClearAllCachedData\\ClearAllCachedDataProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "AfrazAhmad\\ClearAllCachedData\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Afraz Ahmad",
+                    "email": "afrazahmad101.ca@gmail.com"
+                }
+            ],
+            "description": "Clear all cached data i.e. views, config, routes etc",
+            "homepage": "https://github.com/afrazahmmad/clear-all-cached-data",
+            "keywords": [
+                "afrazahmad",
+                "laravel-clear-all-cached-data"
+            ],
+            "time": "2018-03-01T13:06:15+00:00"
+        },
         {
             "name": "barryvdh/laravel-ide-helper",
             "version": "v2.4.3",
