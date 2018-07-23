@@ -34,5 +34,10 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'facebook' => ['client_id' => '257232635070188',         // Your Facebook Client ID(### means client id number)
+        'client_secret' => '4119bf2a3dabc56229a23c3193f040ff', // Your Facebook Client Secret password(### means alphpnumeric password)
+        'redirect' => 'http://localhost:8000/login/facebook/callback',
+    ],
+
 
 ];
